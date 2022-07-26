@@ -16,3 +16,28 @@ class BankAccount {
         return this.balance -= withdrawAmount;
     }
 }
+
+const firstBank = new BankAccount(50, 'checking');
+
+
+console.log(firstBank.getBalance());
+
+firstBank.deposit(50);
+
+console.log(firstBank.getBalance())
+
+firstBank.withdraw(150);
+
+console.log(firstBank.getBalance())
+
+
+
+
+
+
+
+
+
+
+
+
